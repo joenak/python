@@ -1,0 +1,18 @@
+dc1:
+  - server: server1
+  - username: user1
+  - pwd: password1
+
+dc2:
+  - server: server2
+  - username: user2
+  - pwd: password2
+
+dc3:
+  - server: server3
+  - username: user3
+  - pwd: password3
+
+script_creds:
+  - username: user
+  - pwd: password

@@ -1,0 +1,17 @@
+to:
+  - address1@domain.com
+  - address2@domain.com
+
+cc:
+  - address3@domain.com
+
+subject: Daily Report - blah, blah
+
+reportName: Daily_Report
+
+reportRange: previousDay
+
+query: |
+  SELECT field1, field2, field3
+  FROM table1
+  WHERE dateField >= '@start'
