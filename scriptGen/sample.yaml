@@ -1,0 +1,21 @@
+# valid options for Source and Destination are: qa, uat, sb, provided
+
+Source: uat
+
+Destination: prod
+
+Schema:
+
+Table:
+  - DB1.dbo.table1
+  - DB2.dbo.table14
+
+View:
+  - DB1.dbo.view1
+  - DB1.dbo.view2
+
+Function:
+
+StoredProcedure:
+  - DB1.dbo.usp_proc1
+  - DB1.dbo.usp_proc2
